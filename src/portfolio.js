@@ -118,26 +118,14 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Prince Sattam bin Abdulaziz University",
+      logo: require("./assets/images/psau.jpg"),
+      subHeader: "Bachelor's degree, Computer Science",
+      duration: "September 2016 - April 2020",
+      desc: "Grade: First Class of Honors"
     }
   ]
 };
@@ -170,32 +158,42 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer - Instructor",
+      company: "SAFCSP",
+      companylogo: require("./assets/images/safcsp.jpg"),
+      date: "Sep 2021 – Present",
+      desc: "Worked as Lead Instructor for the Java and the JavaScript Bootcamps.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked as lead Instructor Tuwaiq-4 Bootcamp and teached 440+ hours of Java and JavaScript to over 20+ students.",
+        "Taught over 100+ students remotely during the tuwaiq-1000 bootcamp."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Application Operations Specialist",
+      company: "Saudi Tadawul Group",
+      companylogo: require("./assets/images/tadawul.jpg"),
+      date: "Oct 2020 - Sep 2021 ",
+      desc: "Worked as Devops-Fullstack developer in the Application Operations department.",
+      descBullets: [
+        "Developed a monitoring system for Tadawul's software infrastructure (MERN)",
+        "Developed API to read real-time data feed using Spring Boot",
+        "Developed bash scripts to help with DevOps tasks"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Java Developer",
+      company: "Ministry Of Defence",
+      companylogo: require("./assets/images/def2.jpg"),
+      date: "Jun 2019 - Dec 2019",
+      desc: "Worked with the IT department to develop a desktop applications and using complex SQL queries to extract data from the database and display it in a report.",
+      descBullets: [
+        "Worked in the main database system and write complex SQL queries in order to get specific data.",
+        "Developed and Maintained Contracts and Agreements System.",
+        "Developed and Maintained Tracking and Departments System."
+      ]
     }
   ]
 };
