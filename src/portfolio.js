@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saleh Alibrahim",
+  username: "Saleh",
   title: "Hi all, I'm Saleh",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Java and some other cool libraries and frameworks."
@@ -122,7 +122,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Prince Sattam bin Abdulaziz University",
-      logo: require("./assets/images/psau.jpg"),
+      logo: require("./assets/images/psau.png"),
       subHeader: "Bachelor's degree, Computer Science",
       duration: "September 2016 - April 2020",
       desc: "Grade: First Class of Honors"
