@@ -174,7 +174,7 @@ const workExperiences = {
     {
       role: "Application Operations Specialist",
       company: "Saudi Tadawul Group",
-      companylogo: require("./assets/images/tadawul.jpg"),
+      companylogo: require("./assets/images/tadawul.png"),
       date: "Oct 2020 - Sep 2021 ",
       desc: "Worked as Devops-Fullstack developer in the Application Operations department.",
       descBullets: [
@@ -186,7 +186,7 @@ const workExperiences = {
     {
       role: "Java Developer",
       company: "Ministry Of Defence",
-      companylogo: require("./assets/images/def2.jpg"),
+      companylogo: require("./assets/images/def.png"),
       date: "Jun 2019 - Dec 2019",
       desc: "Worked with the IT department to develop a desktop applications and using complex SQL queries to extract data from the database and display it in a report.",
       descBullets: [
